@@ -1,1 +1,1 @@
-"# pthon_study"  
+"# python_study"
