@@ -1,10 +1,17 @@
 # Author:Clive Chen
-import getpass
+import getpass  #调入库
 
-#usename = input("username:")
+#username = input("username:")
 #password = input("password:")
-#print (usename,password)
+#print (username,password)
 
-usename = input("username:")
+_username = "clive"
+_password = "abc123"
+username = input("username:")
 password = getpass.getpass("password:")   #输入时不显示明文密码
-print (usename,password)
+print (username,password)
+
+if _username == username and _password == password:
+    print("Welcome user {name} login ..." .format(name=username))
+else:
+    print("Invalid username or password!")
