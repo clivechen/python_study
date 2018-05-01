@@ -1,4 +1,5 @@
 # Author:Clive Chen
+#调库/getpass/if...else
 import getpass  #调入库
 
 #username = input("username:")

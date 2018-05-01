@@ -1,5 +1,4 @@
 # Author:Clive Chen
-
 # 单行注释 name= "clive chen"
 
 '''
@@ -8,7 +7,6 @@ print ("你好，世界！")
 name = "Hello,world!"
 print (name)
 '''
-
 
 msg = '''
 多行注释
