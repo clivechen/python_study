@@ -1,5 +1,5 @@
 # Author:Clive Chen
-#while/for
+# while/for
 
 count = 0
 while True:
